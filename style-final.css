@@ -1,0 +1,202 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(./Images/hawai.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.section-main-nav {
+  background-color: orange;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.main-nav {
+  width: fit-content;
+  margin-left: auto;
+  list-style-type: none;
+  display: flex;
+  padding: 15;
+}
+
+.main-nav li a {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.main-nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.hero-sentence {
+  border: 2px solid red;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(./Images/veganpoke2.jpg);
+  background-size: cover;
+
+  text-align: center;
+  color: blue;
+}
+
+.hero-sentence h1 {
+  font-size: 80px;
+  margin-top: 80px;
+}
+
+.hero-sentence p {
+  margin: 20px auto;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* Container-Menu section */
+
+.poke-menu {
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card {
+  background: orange;
+  width: 270px;
+  height: 400px;
+  margin: 50px;
+  border-radius: 15px;
+}
+
+.card-image {
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.menu-1 {
+  background-image: url(./Images/poke-bowl-vegan-rezept-3-775x516-1.jpg);
+}
+
+.menu-2 {
+  background-image: url(./Images/vegan3.jpg);
+}
+
+.menu-3 {
+  background-image: url(./Images/veganpoke.jpg);
+}
+
+.main-card:hover {
+  background-color: bisque;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+/* About */
+
+.about {
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-main-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.about-card {
+  background: orange;
+  width: 270px;
+  height: 400px;
+  margin: 50px;
+  border-radius: 15px;
+}
+
+.about-card-image {
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.about-1 {
+  background-image: url(./Images/vaca.lola.jpg);
+}
+
+.about-2 {
+  background-image: url(./Images/bull.lolo.jpg);
+}
+
+.about-main-card:hover {
+  background-color: bisque;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+/* contact */
+
+.contact {
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.main-footer {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: orange;
+}
+
+.main-footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer ul li a {
+  padding: 20px;
+  margin: 30px;
+  font-size: 20px;
+  color: beige;
+}
+
+footer ul li a:hover {
+  color: blue;
+}
